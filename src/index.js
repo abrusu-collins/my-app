@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import todosComponent from './components/todosComponent';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+     <App />
+    <todosComponent />
+  
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-reportWebVitals();
+

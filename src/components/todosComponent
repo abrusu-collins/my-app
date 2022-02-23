@@ -1,0 +1,12 @@
+
+function todosComponent() {
+  
+    return(
+
+      <div className='todosComponent'> 
+      <h1>Fuck!</h1>  </div>
+    )
+ 
+}
+
+export default todosComponent;
