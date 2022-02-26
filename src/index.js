@@ -8,6 +8,7 @@ import IsGoal from "./components/IsGoal";
 import Logical from './components/Logical';
 import CarMap from './components/CarMap';
 import UseState from './components/UseState';
+import Forms from './components/Forms';
 
 
 let  person={name:"Collins", girl:"Herty"}
@@ -25,6 +26,7 @@ ReactDOM.render(
     <Logical  logics={logics}/>
 <CarMap  cars={cars}/>
 <UseState />
+<Forms />
   </React.StrictMode>,
   document.getElementById('root')
 );
