@@ -15,12 +15,12 @@ let sets=(num)=>{
     }
 
 
-return (
-    <div>
-    <h1>I love {girl[1]}</h1>
-    <button onClick={}>Switch</button>
-    </div>
-);
+// return (
+//     <div>
+//     <h1>I love {girl[1]}</h1>
+//     // <button onClick={}>Switch</button>
+//     </div>
+// );
 
 
 
