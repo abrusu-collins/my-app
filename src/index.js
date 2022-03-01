@@ -9,6 +9,7 @@ import Logical from './components/Logical';
 import CarMap from './components/CarMap';
 import UseState from './components/UseState';
 import Forms from './components/Forms';
+import Multiples from './components/MultipleInputs';
 
 
 let  person={name:"Collins", girl:"Herty"}
@@ -27,6 +28,7 @@ ReactDOM.render(
 <CarMap  cars={cars}/>
 <UseState />
 <Forms />
+<Multiples />
   </React.StrictMode>,
   document.getElementById('root')
 );
