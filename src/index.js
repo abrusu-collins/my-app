@@ -10,6 +10,7 @@ import CarMap from './components/CarMap';
 import UseState from './components/UseState';
 import Forms from './components/Forms';
 import Multiples from './components/MultipleInputs';
+import Imback from './components/Imback';
 
 
 let  person={name:"Collins", girl:"Herty"}
@@ -29,6 +30,7 @@ ReactDOM.render(
 <UseState />
 <Forms />
 <Multiples />
+<Imback />
   </React.StrictMode>,
   document.getElementById('root')
 );
